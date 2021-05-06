@@ -8,6 +8,6 @@ jobs:
     steps:
       - name: Try to install ZeroMQ
         run: |
-	  sudo apt-get update
-	  sudo apt-get upgrade
-	  sudo apt-get install libzmq3-dev
+          sudo apt-get update
+          sudo apt-get upgrade
+          sudo apt-get install libzmq3-dev
