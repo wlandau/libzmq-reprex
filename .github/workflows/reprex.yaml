@@ -1,0 +1,10 @@
+on: [push, pull_request]
+
+name: reprex
+
+jobs:
+  reprex:
+    runs-on: macOS-latest
+    steps:
+      - name: Try to install ZeroMQ
+        run: sudo apt-get install libzmq3-dev
