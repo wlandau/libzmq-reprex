@@ -3,7 +3,7 @@ name: reprex
 jobs:
   reprex:
     runs-on: ${{ matrix.config.os }}
-    name: ${{ matrix.config.os }
+    name: ${{ matrix.config.os }}
     strategy:
       fail-fast: false
       matrix:
